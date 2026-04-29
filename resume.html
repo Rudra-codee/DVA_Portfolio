@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudraksh Rathod - Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 10.5pt;
+            line-height: 1.35;
+            color: #000;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .resume-page {
+            width: 8.5in;
+            min-height: 11in;
+            background: #fff;
+            padding: 0.5in 0.6in;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 4px;
+        }
+
+        .header h1 {
+            font-size: 22pt;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+
+        .header .contact-line,
+        .header .links-line {
+            font-size: 9.5pt;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        a {
+            color: #0563c1;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .separator-bold {
+            border: none;
+            border-top: 2px solid #000;
+            margin: 6px 0 4px 0;
+        }
+
+        .separator-thin {
+            border: none;
+            border-top: 1px solid #000;
+            margin: 3px 0 4px 0;
+        }
+
+        .section {
+            margin-bottom: 8px;
+        }
+
+        .section-title {
+            font-size: 11.5pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .summary-text,
+        li {
+            font-size: 10pt;
+            text-align: justify;
+        }
+
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 10pt;
+        }
+
+        .skills-table td {
+            padding: 2px 4px;
+            vertical-align: top;
+        }
+
+        .skills-table td:first-child {
+            font-weight: 700;
+            width: 180px;
+            white-space: nowrap;
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 1px;
+            gap: 16px;
+        }
+
+        .project-title {
+            font-weight: 700;
+            font-size: 10.5pt;
+        }
+
+        .project-tech {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #444;
+            margin-bottom: 2px;
+        }
+
+        .project-bullets {
+            padding-left: 18px;
+            margin-top: 1px;
+        }
+
+        .project-bullets li {
+            margin-bottom: 1px;
+        }
+
+        .edu-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .edu-degree {
+            font-weight: 700;
+            font-size: 10.5pt;
+        }
+
+        .edu-date {
+            font-size: 10pt;
+            font-style: italic;
+        }
+
+        .edu-school,
+        .edu-details {
+            font-size: 10pt;
+            color: #333;
+        }
+
+        .pipe {
+            margin: 0 4px;
+            color: #666;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+
+            .resume-page {
+                box-shadow: none;
+                padding: 0.4in 0.5in;
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume-page">
+        <div class="header">
+            <h1>Rudraksh Rathod</h1>
+            <div class="contact-line">India, Asia</div>
+            <div class="links-line">
+                <a href="https://github.com/Rudra-codee">github.com/Rudra-codee</a>
+                <span class="pipe">|</span>
+                <a href="https://www.linkedin.com/in/rudraksh-rathod-5a891431a/">linkedin.com/in/rudraksh-rathod</a>
+            </div>
+        </div>
+
+        <hr class="separator-bold">
+
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <hr class="separator-thin">
+            <p class="summary-text">
+                Software and data builder focused on systems that solve real friction: route optimization, ride analytics,
+                machine learning workflows, and AI agents. Comfortable turning raw data into useful products through
+                Python, dashboards, backend systems, and LLM-powered automation.
+            </p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <hr class="separator-thin">
+            <table class="skills-table">
+                <tr>
+                    <td>Programming:</td>
+                    <td>Python, Node.js, TypeScript</td>
+                </tr>
+                <tr>
+                    <td>Backend & Databases:</td>
+                    <td>PostgreSQL, TypeORM, API development</td>
+                </tr>
+                <tr>
+                    <td>Data & ML:</td>
+                    <td>Pandas, Streamlit, scikit-learn, EDA, feature engineering, model comparison</td>
+                </tr>
+                <tr>
+                    <td>AI:</td>
+                    <td>LLM APIs, agentic workflows, customer retention automation</td>
+                </tr>
+                <tr>
+                    <td>Tools:</td>
+                    <td>GitHub, Jupyter Notebook, VS Code</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Projects</div>
+            <hr class="separator-thin">
+
+            <div style="margin-bottom: 6px;">
+                <div class="project-header">
+                    <span class="project-title">Uber & Ola Ride Analytics and Cancellation Optimization</span>
+                    <a href="https://github.com/Rudra-codee" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tech">Python, Pandas, Streamlit, Analytics</div>
+                <ul class="project-bullets">
+                    <li>Analyzed Uber and Ola ride-hailing datasets to uncover cancellation patterns, peak demand zones, and pricing inefficiencies.</li>
+                    <li>Designed the project around real-time exploration through a Streamlit dashboard and decision-ready analytics.</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 6px;">
+                <div class="project-header">
+                    <span class="project-title">Agentic Customer Retention Assistant</span>
+                    <a href="https://github.com/Rudra-codee" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tech">Python, LLM APIs, Agents, Automation</div>
+                <ul class="project-bullets">
+                    <li>Built an AI-powered agentic pipeline to identify at-risk customers using behavioral signals.</li>
+                    <li>Generated personalized retention strategies and re-engagement workflows through LLM tooling.</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 6px;">
+                <div class="project-header">
+                    <span class="project-title">The ExoPlanets Project</span>
+                    <a href="https://github.com/Rudra-codee" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tech">Jupyter Notebook, Machine Learning, scikit-learn, Space Data</div>
+                <ul class="project-bullets">
+                    <li>Developed a machine learning classification pipeline for NASA's Kepler exoplanet dataset.</li>
+                    <li>Included exploratory analysis, feature engineering, and model comparison for candidate planet identification.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Currently Building</div>
+            <hr class="separator-thin">
+            <p class="summary-text">
+                Dynamic School Bus Route Optimization & Monitoring Platform using Node.js, TypeScript, PostgreSQL, and TypeORM.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
